@@ -41,5 +41,5 @@ Here's the result after running the script.
 <p align="center">Select your downloaded DSM .pat file</p>
 <p align="center"><img src="/images/reinstall_dsm_step-2.png"></p>
 
-<p align="center">No error from DSM</p>
+<p align="center">No complaints from DSM</p>
 <p align="center"><img src="/images/reinstall_dsm_step-3.png"></p>
