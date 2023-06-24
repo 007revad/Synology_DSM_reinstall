@@ -7,6 +7,22 @@
 ### Description
 Easily re-install the same DSM version without losing any data or settings
 
+If you need to re-install the same DSM version this is much easier than resetting the Synology.
+
+## Download the script
+
+See <a href=images/how_to_download_generic.png/>How to download the script</a> for the easiest way to download the script.
+
+## How to run the script
+
+### Running the script via SSH
+
+**Note:** Replace /volume1/scripts/ with the path to where the script is located.
+Run the script then reboot the Synology:
+```YAML
+sudo -i /volume1/scripts/syno_dsm_reinstall.sh
+```
+
 ## Screenshots
 
 Here's the result after running the script.
