@@ -16,10 +16,12 @@ To run a script from Task Scheduler follow these steps:
     - e.g. If you saved the script to a shared folder on volume1 called "scripts" you'd type: **/volume1/scripts/syno_hdd_db.sh**
 11. Click **OK** to save the settings.
 
-Here's some screenshots showing what needs to set:
+Here's some screenshots showing what needs to be set:
 
-<p align="leftr"><img src="images/schedule1.png"></p>
+<p align="leftr"><img src="images/schedule-1.png"></p>
 
-<p align="leftr"><img src="images/schedule2.png"></p>
+<p align="leftr"><img src="images/schedule-2.png"></p>
 
-<p align="leftr"><img src="images/schedule3.png"></p>
+<p align="leftr"><img src="images/schedule-3.png"></p>
+
+<p align="leftr"><img src="images/schedule-4.png"></p>
