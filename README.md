@@ -18,7 +18,6 @@ See <a href=images/how_to_download_generic.png/>How to download the script</a> f
 ### Running the script via SSH
 
 **Note:** Replace /volume1/scripts/ with the path to where the script is located.
-Run the script then reboot the Synology:
 ```YAML
 sudo -i /volume1/scripts/syno_dsm_reinstall.sh
 ```
@@ -27,7 +26,7 @@ sudo -i /volume1/scripts/syno_dsm_reinstall.sh
 
 Here's the result after running the script.
 
-<p align="center">/etc.defaults/VERSION has been edited to a lower build number</p>
+<p align="center">The script has edited DSM's VERSION file to a lower build number</p>
 <p align="center"><img src="/images/reinstall_dsm_step-1.png"></p>
 
 <p align="center">Select your downloaded DSM .pat file</p>
