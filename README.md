@@ -1,2 +1,2 @@
-# Synology_DSM_reinstall
+# Synology DSM reinstall
 Easily re-install the same DSM version without losing any data or settings
