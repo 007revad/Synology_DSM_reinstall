@@ -10,7 +10,7 @@ Easily re-install the same DSM version without losing any data or settings
 If you need to re-install the same DSM version this is much easier than resetting the Synology.
 
 1. Download the same DSM version from Synology.
-2. Run this script via SSH or from <a href=how_to_run_from_scheduleer.md/>Task Scheduler</a>.
+2. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
 3. Go to "Control Panel > Update & Restore > Manual DSM Update".
 4. Browse to the DSM .pat file you downloaded in step 1 and click Open then OK.
 
@@ -22,7 +22,7 @@ See <a href=images/how_to_download_generic.png/>How to download the script</a> f
 
 ### Scheduling the script in Synology's Task Scheduler
 
-See <a href=how_to_run_from_scheduleer.md/>How to run a script in Synology Task Scheduler</a>
+See <a href=how_to_run_from_scheduler.md/>How to run a script in Synology Task Scheduler</a>
 
 ### Running the script via SSH
 
