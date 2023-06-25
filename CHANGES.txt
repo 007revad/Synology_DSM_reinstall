@@ -1,2 +1,5 @@
+v1.0.1
+- Minor bug fix
+
 v1.0.0
 - First release
