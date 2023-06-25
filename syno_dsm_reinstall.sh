@@ -34,7 +34,7 @@ fi
 
 newbuild=$((currentbuild-1))
 newbase=$((currentbase-1))
-if [[ -z $newbuild ]] && [[ -z $newbase ]]; then
+if [[ -z $newbuild ]] || [[ -z $newbase ]]; then
     echo "Failed to decrement buildnumber and/or base!" && exit 1
 fi
 if [[ $newbuild != "$newbase" ]]; then
