@@ -12,7 +12,7 @@ Easily re-install the same DSM version without losing any data or settings
 
 ### How to tell if a .pat file is a full release or a small update
   - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are a over 200MB and named *DSM_model_build.pat* like **DSM_DS223_64570.pat**
-  - <img src="images/cross.svg" width="15" height="15"> Small critical update pat files are less than 50MB and named *synology_arch_model.pat* like **synology_r1000_723+.pat**
+  - <img src="images/cross.svg" width="15" height="15"> Small update pat files are less than 50MB and named *synology_arch_model.pat* like **synology_r1000_723+.pat**
 
 ### Steps to reinstall DSM
 1. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
