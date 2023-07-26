@@ -7,12 +7,15 @@
 ### Description
 Easily re-install the same DSM version without losing any data or settings
 
-If you need to re-install the same DSM version this is much easier than resetting the Synology.
+  - If you need to re-install the same full release DSM version this is much easier than resetting the Synology.
+  - It can also be used to roll back from an update version to the same full release version.
 
-It can also be used to roll back from an update version to the previous full version.  
-e.g. `7.2-64570 Update 2` to `7.2-64570 (with Update 1)` or `7.2-64570`
+#### How to tell if a .pat file is a full release or a small update
+  - <img src="images/tick.svg" width="15" height="15"> Full release DSM patch files are around 200 to 400 MB and named *DSM_model_build.pat* like **DSM_DS223_64570.pat**
+  - <img src="images/cross.svg" width="15" height="15"> Small critical update patch files around 20 to 40 MB and named *synology_arch_model.pat* like **synology_rtd1619b_ds223.pat**
 
-1. Download the same DSM version from Synology.
+### Steps to reinstall DSM
+1. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
 2. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
 3. Go to "Control Panel > Update & Restore > Manual DSM Update".
 4. Browse to the DSM .pat file you downloaded in step 1 and click Open then OK.
@@ -22,22 +25,18 @@ e.g. `7.2-64570 Update 2` to `7.2-64570 (with Update 1)` or `7.2-64570`
 See <a href=images/how_to_download_generic.png/>How to download the script</a> for the easiest way to download the script.
 
 ## How to run the script
+You can run the script either via SSH or in Task Scheduler.
 
-You can run the script either via SSH or in task scheduler.
-
-### Scheduling the script in Synology's Task Scheduler
-
+#### Scheduling the script in Synology's Task Scheduler
 See <a href=how_to_run_from_scheduler.md/>How to run a script in Synology Task Scheduler</a>
 
-### Running the script via SSH
-
+#### Running the script via SSH
 **Note:** Replace /volume1/scripts/ with the path to where the script is located.
 ```YAML
 sudo -i /volume1/scripts/syno_dsm_reinstall.sh
 ```
 
 ## Screenshots
-
 Here's the result after running the script.
 
 <p align="center">The script has edited DSM's VERSION file to a lower build number</p>
