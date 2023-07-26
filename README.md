@@ -9,6 +9,9 @@ Easily re-install the same DSM version without losing any data or settings
 
 If you need to re-install the same DSM version this is much easier than resetting the Synology.
 
+It can also be used to roll back from an update version to the previous full version.  
+e.g. `7.2-64570 Update 2` to `7.2-64570 (with Update 1)` or `7.2-64570`
+
 1. Download the same DSM version from Synology.
 2. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
 3. Go to "Control Panel > Update & Restore > Manual DSM Update".
