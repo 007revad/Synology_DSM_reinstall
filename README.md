@@ -15,10 +15,11 @@ Easily re-install the same DSM version without losing any data or settings
   - <img src="images/cross.svg" width="15" height="15"> Small update pat files are less than 50MB and named *synology_arch_model.pat* like **synology_r1000_723+.pat**
 
 ### Steps to reinstall DSM
-1. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
-2. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
-3. Go to "Control Panel > Update & Restore > Manual DSM Update".
-4. Browse to the DSM .pat file you downloaded in step 1 and click Open then OK.
+1. Disable DSM Auto Update via "Control Panel > Update & Restore > Update Settings > Notify me... > OK".
+2. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
+3. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
+4. Go to "Control Panel > Update & Restore > Manual DSM Update".
+5. Browse to the DSM .pat file you downloaded in step 1 and click Open then OK.
 
 ## Download the script
 
