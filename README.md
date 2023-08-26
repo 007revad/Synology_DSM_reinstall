@@ -19,7 +19,6 @@ Easily re-install the same DSM version without losing any data or settings
 2. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
 3. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
 4. *Optionally unplug your router from the Internet to prevent DSM updating to the latest update version.*
-    - ***Note:** Don't unplug your Internet until after the DSM update has started.*
 6. Go to "Control Panel > Update & Restore > Manual DSM Update".
 7. Browse to the DSM .pat file you downloaded in step 2 and click Open then OK.
 8. Wait for the Synology NAS to finishe updating and rebooting.
