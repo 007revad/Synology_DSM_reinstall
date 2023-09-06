@@ -3,6 +3,7 @@
 <a href="https://github.com/007revad/Synology_DSM_reinstall/releases"><img src="https://img.shields.io/github/release/007revad/Synology_DSM_reinstall.svg"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F007revad%2FDSM_reinstallh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/007revad)
+[![committers.top badge](https://user-badge.committers.top/australia/007revad.svg)](https://user-badge.committers.top/australia/007revad)
 
 ### Description
 Easily re-install the same DSM version without losing any data or settings
@@ -18,11 +19,11 @@ Easily re-install the same DSM version without losing any data or settings
 1. Disable DSM Auto Update via "Control Panel > Update & Restore > Update Settings > Notify me... > OK".
 2. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
 3. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
-4. *Optionally unplug your router from the Internet to prevent DSM updating to the latest update version.*
-5. Go to "Control Panel > Update & Restore > Manual DSM Update".
-6. Browse to the DSM .pat file you downloaded in step 2 and click Open then OK.
-7. Wait for the Synology NAS to finishe updating and rebooting.
-8. *If you unpluged your router from the Internet in step 4, reconnect it now.*
+4. Go to "Control Panel > Update & Restore > Manual DSM Update".
+5. Browse to the DSM .pat file you downloaded in step 2 and click Open then OK.
+6. *Optionally unplug your router from the Internet **after DSM has started installing** to prevent DSM updating to the latest update version.*
+7. Wait for the Synology NAS to finished updating and rebooting.
+8. *If you unpluged your router from the Internet in step 6, reconnect it now.*
 
 ## Download the script
 
