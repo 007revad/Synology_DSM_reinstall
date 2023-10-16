@@ -10,6 +10,7 @@ Easily re-install the same DSM version without losing any data or settings
 
   - If you need to re-install the same full release DSM version this is much easier than resetting the Synology.
   - It can also be used to roll back from an update version to the same full release version.
+  - It also prevents DSM auto-updating to "Update #" during reinstall.
 
 ### How to tell if a .pat file is a full release or a small update
   - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are a over 200MB and named *DSM_model_build.pat* like **DSM_DS223_64570.pat**
@@ -21,10 +22,8 @@ Easily re-install the same DSM version without losing any data or settings
 3. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
 4. Go to "Control Panel > Update & Restore > Manual DSM Update".
 5. Browse to the DSM .pat file you downloaded in step 2 and click Open then OK.
-6. *Optionally unplug your router from the Internet **after DSM has started installing** to prevent DSM updating to the latest update version.*
-7. Click Update.
-8. Wait for the Synology NAS to finished updating and rebooting.
-9. *If you unpluged your router from the Internet in step 6, reconnect it now.*
+6. 7. Click Update.
+8. Wait for the Synology NAS to finished updating and rebooting.9. 
 
 ## Download the script
 
