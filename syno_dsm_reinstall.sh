@@ -12,6 +12,9 @@
 
 # Maybe we should backup the VERSION file here
 
+# Prevent DSM auto-updating to "Update #" during reinstall
+sed -i "s/\"smart_nano_enabled\":true/\"smart_nano_enabled\":false/g" "/usr/syno/etc/update.conf"
+
 currentbuild=$(synogetkeyvalue /etc.defaults/VERSION buildnumber)
 if [[ -n $currentbuild ]]; then
     echo "Current buildnumber is: $currentbuild"

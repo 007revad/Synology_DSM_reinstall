@@ -1,3 +1,6 @@
+v1.1.2
+- Prevent DSM auto-updating to "Update #" during reinstall
+
 v1.0.1
 - Minor bug fix
 
