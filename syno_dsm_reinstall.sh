@@ -10,10 +10,20 @@
 #   or as root from task scheduler as a user defined script
 #------------------------------------------------------------------------------
 
+# Check script is running as root
+if [[ $( whoami ) != "root" ]]; then
+    echo "This script must be run as root or sudo."
+    exit
+fi
+
+
 # Maybe we should backup the VERSION file here
 
 # Prevent DSM auto-updating to "Update #" during reinstall
-sed -i "s/\"smart_nano_enabled\":true/\"smart_nano_enabled\":false/g" "/usr/syno/etc/update.conf"
+#if grep '"smart_nano_enabled":true' "/usr/syno/etc/update.conf"; then
+   sed -i "s/\"smart_nano_enabled\":true/\"smart_nano_enabled\":false/g" "/usr/syno/etc/update.conf"
+#fi
+
 
 currentbuild=$(synogetkeyvalue /etc.defaults/VERSION buildnumber)
 if [[ -n $currentbuild ]]; then
@@ -46,14 +56,16 @@ fi
 
 
 synosetkeyvalue /etc.defaults/VERSION buildnumber "$newbuild"
-if [[ -z $synosetkeyvalue ]]; then
+value=$(synogetkeyvalue /etc.defaults/VERSION buildnumber)
+if [[ $value == "$newbuild" ]]; then
     echo "Changed buildnumber to: $newbuild"
 else
     echo "Failed to edit buildnumber!" && exit 1
 fi
 
 synosetkeyvalue /etc.defaults/VERSION base "$newbase"
-if [[ -z $synosetkeyvalue ]]; then
+value=$(synogetkeyvalue /etc.defaults/VERSION base)
+if [[ $value == "$newbase" ]]; then
     echo "Changed base to:        $newbase"
 else
     echo "Failed to edit base!" && exit 1
@@ -62,3 +74,4 @@ fi
 echo -e "\nYou can now do a 'Manual Install' of the currently installed DSM version."
 
 exit
+
