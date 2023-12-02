@@ -33,7 +33,9 @@ See <a href=images/how_to_download_generic.png/>How to download the script</a> f
 You can run the script either via SSH or in Task Scheduler.
 
 #### Scheduling the script in Synology's Task Scheduler
-See <a href=how_to_run_from_scheduler.md/>How to run a script in Synology Task Scheduler</a>
+
+- <a href=how_to_run_from_scheduler.md/>How to run a script in Synology Task Scheduler</a> 
+- <a href=how_to_see_output_in_scheduler/>How to see the output of a script run in Synology Task Scheduler</a>
 
 #### Running the script via SSH
 **Note:** Replace /volume1/scripts/ with the path to where the script is located.
