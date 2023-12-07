@@ -11,6 +11,10 @@ Easily re-install the same DSM version without losing any data or settings
   - If you need to re-install the same full release DSM version this is much easier than resetting the Synology.
   - It can also be used to roll back from an update version to the same full release version.
 
+### Important
+
+You must download a full version pat file. If you download a small update pat file you will get an error saying: <br> *The update that you are applying is not compatible with this version of DSM*
+
 ### How to tell if a .pat file is a full release or a small update
   - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
   - <img src="images/cross.svg" width="15" height="15"> Small update pat files are named *synology_arch_model.pat* like **synology_geminilake_224+.pat**
