@@ -31,7 +31,9 @@ You must download a full version pat file. If you download a small update pat fi
 9. *If you unpluged your router from the Internet in step 6, reconnect it now.*
 
 ## Download the script
-See <a href=images/how_to_download_generic.png/>How to download the script</a> for the easiest way to download the script.
+1. Download the latest version _Source code (zip)_ from https://github.com/007revad/Synology_Cleanup_Coredumps/releases
+2. Save the download zip file to a folder on the Synology.
+3. Unzip the zip file.
 
 ## How to run the script
 You can run the script either via SSH or in Task Scheduler.
