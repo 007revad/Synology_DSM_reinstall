@@ -6,6 +6,7 @@
 [![committers.top badge](https://user-badge.committers.top/australia/007revad.svg)](https://user-badge.committers.top/australia/007revad)
 
 ### Description
+
 Easily re-install the same DSM version without losing any data or settings
 
   - If you need to re-install the same full release DSM version this is much easier than resetting the Synology.
@@ -16,10 +17,12 @@ Easily re-install the same DSM version without losing any data or settings
 You must download a full version pat file. If you download a small update pat file you will get an error saying: <br> *The update that you are applying is not compatible with this version of DSM*
 
 ### How to tell if a .pat file is a full release or a small update
+
   - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
   - <img src="images/cross.svg" width="15" height="15"> Small update pat files are named *synology_arch_model.pat* like **synology_geminilake_224+.pat**
 
 ### Steps to reinstall DSM
+
 1. Disable DSM Auto Update via "Control Panel > Update & Restore > Update Settings > Notify me... > OK".
 2. Download the same DSM full release build version from <a href=https://archive.synology.com/download/Os/DSM/>Synology's download site</a>.
 3. Run this script via SSH or from <a href=how_to_run_from_scheduler.md/>Task Scheduler</a>.
@@ -31,11 +34,13 @@ You must download a full version pat file. If you download a small update pat fi
 9. *If you unpluged your router from the Internet in step 6, reconnect it now.*
 
 ## Download the script
+
 1. Download the latest version _Source code (zip)_ from https://github.com/007revad/Synology_Cleanup_Coredumps/releases
 2. Save the download zip file to a folder on the Synology.
 3. Unzip the zip file.
 
 ## How to run the script
+
 You can run the script either via SSH or in Task Scheduler.
 
 #### Scheduling the script in Synology's Task Scheduler
@@ -53,6 +58,7 @@ sudo -i /volume1/scripts/syno_dsm_reinstall.sh
 ```
 
 ## Screenshots
+
 Here's the result after running the script.
 
 <p align="center">The script has edited DSM's VERSION file to a lower build number</p>
