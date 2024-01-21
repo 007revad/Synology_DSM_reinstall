@@ -1,6 +1,3 @@
-v1.2.4
-- Bug fix for false "This script is NOT running on a Synology NAS!" if uname is installed from Entware.
-
 v1.2.3
 - Check if running as root
 - Bug fix
