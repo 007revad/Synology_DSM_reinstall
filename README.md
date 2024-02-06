@@ -35,7 +35,7 @@ You must download a full version pat file. If you download a small update pat fi
 
 ## Download the script
 
-1. Download the latest version _Source code (zip)_ from [releases](releases)
+1. Download the latest version _Source code (zip)_ from https://github.com/007revad/Synology_DSM_reinstall/releases
 2. Save the download zip file to a folder on the Synology.
 3. Unzip the zip file.
 
