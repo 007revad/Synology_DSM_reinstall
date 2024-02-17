@@ -18,8 +18,14 @@ You must download a full version pat file. If you download a small update pat fi
 
 ### How to tell if a .pat file is a full release or a small update
 
-  - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
-  - <img src="images/cross.svg" width="15" height="15"> Small update pat files are named *synology_arch_model.pat* like **synology_geminilake_224+.pat**
+  - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are:
+    - Usually named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
+    - Are 270MB or larger and always much larger than small updates.
+  - <img src="images/cross.svg" width="15" height="15"> Small update pat files are:
+    - Always named *synology_arch_model.pat* like **synology_geminilake_224+.pat**
+    - Are 1MB to 130MB and always much smaller than full updates.
+  - **Note:** Sometimes a full release is named like a small update .pat file when Synology messes up the file naming.
+    - See https://archive.synology.com/download/Os/DSM/7.1.1-42962-1-NanoPacked
 
 ### Steps to reinstall DSM
 
