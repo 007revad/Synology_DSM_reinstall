@@ -19,7 +19,7 @@ You must download a full version pat file. If you download a small update pat fi
 ### How to tell if a .pat file is a full release or a small update
 
   - <img src="images/tick.svg" width="15" height="15"> Full release DSM pat files are:
-    - Usually named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
+    - Normally named *DSM_model_build.pat* like **DSM_DS224+_64570.pat**
     - Are 270MB or larger and always much larger than small updates.
   - <img src="images/cross.svg" width="15" height="15"> Small update pat files are:
     - Always named *synology_arch_model.pat* like **synology_geminilake_224+.pat**
