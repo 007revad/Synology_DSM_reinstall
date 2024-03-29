@@ -61,7 +61,7 @@ You can run the script either via SSH or in Task Scheduler.
 
 **Note:** Replace /volume1/scripts/ with the path to where the script is located.
 ```YAML
-sudo -i /volume1/scripts/syno_dsm_reinstall.sh
+sudo -s /volume1/scripts/syno_dsm_reinstall.sh
 ```
 
 ## Screenshots
