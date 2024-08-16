@@ -39,7 +39,7 @@ You must download a full version pat file. If you download a small update pat fi
 7. Click Update.
 8. *Optionally unplug your router from the Internet **after DSM has started installing** to prevent DSM updating to the latest update version.*
 9. Wait for the Synology NAS to finished updating and rebooting.
-10. *If you unpluged your router from the Internet in step 6, reconnect it now.*
+10. *If you unpluged your router from the Internet in step 7, reconnect it now.*
 
 ## Download the script
 
